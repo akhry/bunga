@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunga untuk Shalma Shofian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7e8ff;
+            text-align: center;
+            color: #5d3d92;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #8e44ad;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .flower {
+            margin-top: 20px;
+            animation: spin 10s linear infinite;
+        }
+        @keyframes spin {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bunga untuk Shalma Shofian</h1>
+    <p>Ini adalah bunga spesial hanya untukmu, Shalma!</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Rose_flower_in_Shrub.jpg/800px-Rose_flower_in_Shrub.jpg" alt="Bunga mawar untuk Shalma" class="flower" width="300">
+    
+</body>
+</html>
